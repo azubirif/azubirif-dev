@@ -1,1 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap");
 @import 'tailwindcss';
+
+@theme {
+    --font-kadwa: "Kadwa", sans-serif;
+    --color-primary: #5e81ac;
+    --color-second: #81a1c1;
+    --color-third: #88c0d0;
+    --color-four: #8fbcbb;
+}
