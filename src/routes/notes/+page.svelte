@@ -3,6 +3,7 @@
     import NotesSection from "$lib/NotesSection.svelte";
 </script>
 
+<div class="mx-2">
 <h1 class="text-3xl font-bold">Primer Año</h1>
 <div class="w-11/12 h-1 bg-black rounded-2xl"></div>
 <NotesSection title="Primer Cuatrimestre">
@@ -21,3 +22,4 @@
     <NoteEl title="Topología Elemental" href="https://azubirif.github.io/apuntes-carrera/Primer-A%C3%B1o/Segundo-Cuatri/Topolog%C3%ADa/Topologia.pdf" color="bg-third"/>
     <NoteEl title="Programación Avanzada" href="https://azubirif.github.io/apuntes-carrera/Primer-A%C3%B1o/Segundo-Cuatri/Programacion/Programacion.pdf" color="bg-aurora-orange"/>
 </NotesSection>
+</div>

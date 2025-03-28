@@ -2,6 +2,9 @@
     import { base } from "$app/paths";
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
-<a href="{base}/blog">Aquí pal blog</a>
+<div class="my-2 w-full flex flex-col items-center justify-center">
+    <h1 class="font-bold font-kadwa text-black text-6xl">¡Bienvenido!</h1>
+    <h1 class="text-2xl">
+        Puedes acceder a los apuntes mediante la barra superior.
+    </h1>
+</div>

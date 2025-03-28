@@ -8,7 +8,6 @@
 	<h1 class ="text-4xl font-bold font-kadwa text-primary">zubiri</h1>
 	<div class ="flex flex-row">
 		<TopBarEl title ="inicio" href="{base}/"/>
-		<TopBarEl title ="blog" href="{base}/blog"/>
 		<TopBarEl title ="apuntes" href="{base}/notes"/>
 	</div>
 </div>
