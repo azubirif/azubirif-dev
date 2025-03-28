@@ -7,9 +7,9 @@
 <div class ="top-0 w-full pt-2 bg-[#81A1C1] flex flex-col items-center justify-center">
 	<h1 class ="text-4xl font-bold font-kadwa text-primary">zubiri</h1>
 	<div class ="flex flex-row">
-		<TopBarEl title ="inicio" href="azubirif-dev"/>
-		<TopBarEl title ="blog" href="azubirif-dev/blog"/>
-		<TopBarEl title ="apuntes" href="azubirif-dev/notes"/>
+		<TopBarEl title ="inicio" href="/"/>
+		<TopBarEl title ="blog" href="/azubirif-dev/blog"/>
+		<TopBarEl title ="apuntes" href="/azubirif-dev/notes"/>
 	</div>
 </div>
 {@render children()}
