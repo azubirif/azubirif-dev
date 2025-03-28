@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import '../app.css';
 	import TopBarEl from '$lib/TopBarEl.svelte'; 
 	let { children } = $props();
@@ -7,8 +8,8 @@
 	<h1 class ="text-4xl font-bold font-kadwa text-primary">zubiri</h1>
 	<div class ="flex flex-row">
 		<TopBarEl title ="inicio" href="/"/>
-		<TopBarEl title ="blog" href="/blog"/>
-		<TopBarEl title ="apuntes" href="/notes"/>
+		<TopBarEl title ="blog" href="{base}/blog"/>
+		<TopBarEl title ="apuntes" href="{base}/notes"/>
 	</div>
 </div>
 {@render children()}
