@@ -14,3 +14,7 @@
     --color-aurora-green: #a3be8c;
     --color-aurora-pink: #b48ead;
 }
+
+html {
+    background-color: #eceff4;
+}
