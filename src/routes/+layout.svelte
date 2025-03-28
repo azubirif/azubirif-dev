@@ -16,6 +16,8 @@
 <div class="fixed bottom-0 w-full py-2 px-4 bg-second">
 	<div class="flex flex-row justify-between">
 		<h1 class="font-bold text-white font-kadwa">Alejandro Zubiri</h1>
-		<h1>Sda</h1>
+		<div class="flex flex-row items-center justify-center">
+			<a href="https://github.com/azubirif" target="_blank" class="fa fa-github scale-150 text-white"></a>
+		</div>
 	</div>
 </div>
